@@ -41,7 +41,7 @@ int main(int argc, const char * argv[]) {
     string slowa[ILOSC_GENEROWANYCH_SLOW];
     string klucz, odpowiedz;
     string powitanie = "TERMINAL ROBOCORP\nLOGIN: ADMIN\nPODAJ HASLO\n";
-
+//costam
     srand((unsigned)time(NULL));
 
 
