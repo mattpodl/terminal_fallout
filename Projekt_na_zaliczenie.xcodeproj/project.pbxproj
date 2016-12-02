@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C9DF91D41DF183A6002FDEAA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9DF91D31DF183A6002FDEAA /* main.cpp */; };
+		C9DF91DC1DF1A15F002FDEAA /* generatorSlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9DF91DA1DF1A15F002FDEAA /* generatorSlow.cpp */; };
+		C9DF91DF1DF1A7F0002FDEAA /* wyborSlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9DF91DD1DF1A7F0002FDEAA /* wyborSlow.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		C9DF91D01DF183A6002FDEAA /* Projekt_na_zaliczenie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Projekt_na_zaliczenie; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DF91D31DF183A6002FDEAA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C9DF91DA1DF1A15F002FDEAA /* generatorSlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = generatorSlow.cpp; sourceTree = "<group>"; };
+		C9DF91DB1DF1A15F002FDEAA /* generatorSlow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = generatorSlow.hpp; sourceTree = "<group>"; };
+		C9DF91DD1DF1A7F0002FDEAA /* wyborSlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wyborSlow.cpp; sourceTree = "<group>"; };
+		C9DF91DE1DF1A7F0002FDEAA /* wyborSlow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wyborSlow.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				C9DF91D31DF183A6002FDEAA /* main.cpp */,
+				C9DF91DA1DF1A15F002FDEAA /* generatorSlow.cpp */,
+				C9DF91DD1DF1A7F0002FDEAA /* wyborSlow.cpp */,
+				C9DF91DE1DF1A7F0002FDEAA /* wyborSlow.hpp */,
+				C9DF91DB1DF1A15F002FDEAA /* generatorSlow.hpp */,
 			);
 			path = Projekt_na_zaliczenie;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DF91DC1DF1A15F002FDEAA /* generatorSlow.cpp in Sources */,
 				C9DF91D41DF183A6002FDEAA /* main.cpp in Sources */,
+				C9DF91DF1DF1A7F0002FDEAA /* wyborSlow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
